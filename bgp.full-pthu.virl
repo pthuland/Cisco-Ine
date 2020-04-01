@@ -198,8 +198,7 @@ line vty 2 4
  no login
 !
 !
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -386,8 +385,7 @@ line vty 2 4
  no login
 !
 !
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -586,8 +584,7 @@ line vty 2 4
 !
 
 !
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -780,8 +777,7 @@ line vty 2 4
 !
 !
 
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -977,8 +973,7 @@ line vty 2 4
 !
 !
 
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -1138,8 +1133,7 @@ line vty 2 4
 !
 !
 
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -1318,8 +1312,7 @@ line vty 2 4
 !
 !
 
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -1486,10 +1479,7 @@ line vty 2 4
  no login
 !
 !
-end
-
-
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -1754,10 +1744,7 @@ line vty 0 4
  no login
 !
 !
-end
-!
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -1978,8 +1965,7 @@ line vty 0 4
 !
 !
 
-end
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
@@ -2103,9 +2089,7 @@ line aux 0
 line vty 0 4
 !
 !
-end
-
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
@@ -2232,9 +2216,7 @@ line aux 0
 line vty 0 4
 !
 !
-end
-
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
@@ -2360,9 +2342,7 @@ line aux 0
 line vty 0 4
 !
 !
-end
-
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
@@ -2488,9 +2468,7 @@ line aux 0
 line vty 0 4
 !
 !
-end
-
-</entry>
+end</entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
