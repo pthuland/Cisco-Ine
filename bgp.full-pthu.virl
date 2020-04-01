@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<topology xmlns="http://www.cisco.com/VIRL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="0.9" simulationEngine="OPENSTACK" xsi:schemaLocation="http://www.cisco.com/VIRL https://raw.github.com/CiscoVIRL/schema/v0.95/virl.xsd">
-    <node name="R1" type="SIMPLE" subtype="IOSv" location="57,131">
-        <extensions>
-            <entry key="config" type="String">!
-! Test             
+<topology xmlns="http://www.cisco.com/VIRL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="0.9" simulationEngine="OPENSTACK" xsi:schemaLocation="http://www.cisco.com/VIRL https://raw.github.com/CiscoVIRL/schema/v0.9/virl.xsd">
+    <node name="R1" type="SIMPLE" subtype="IOSv" location="57,131"><extensions><entry key="config" type="String">!
 version 15.2
 !
-!enable
-!conf t
+enable
+conf t
 
 Current configuration : 2968 bytes
 !
@@ -198,13 +195,15 @@ line vty 2 4
  no login
 !
 !
-end</entry>
-        </extensions>
+end
+
+R1#
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R2" type="SIMPLE" subtype="IOSv" location="58,197">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R2" type="SIMPLE" subtype="IOSv" location="58,197"><extensions><entry key="config" type="String">!
 version 15.2
 !
 enable
@@ -385,13 +384,15 @@ line vty 2 4
  no login
 !
 !
-end</entry>
-        </extensions>
+end
+
+R2#
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R3" type="SIMPLE" subtype="IOSv" location="59,270">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R3" type="SIMPLE" subtype="IOSv" location="59,270"><extensions><entry key="config" type="String">!
 version 15.2
 !
 enable
@@ -582,15 +583,15 @@ line vty 2 4
  no login
 !
 !
+end
 
+R3#
 !
-end</entry>
-        </extensions>
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R4" type="SIMPLE" subtype="IOSv" location="58,345">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R4" type="SIMPLE" subtype="IOSv" location="58,345"><extensions><entry key="config" type="String">!
 version 15.2
 !
 enable
@@ -776,14 +777,15 @@ line vty 2 4
  no login
 !
 !
+end
 
-end</entry>
-        </extensions>
+R4#
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R5" type="SIMPLE" subtype="IOSv" location="47,417">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R5" type="SIMPLE" subtype="IOSv" location="47,417"><extensions><entry key="config" type="String">!
 version 15.2
 !
 enable
@@ -972,14 +974,15 @@ line vty 2 4
  no login
 !
 !
+end
 
-end</entry>
-        </extensions>
+R5#
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R6" type="SIMPLE" subtype="IOSv" location="49,474">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R6" type="SIMPLE" subtype="IOSv" location="49,474"><extensions><entry key="config" type="String">!
 version 15.2
 !
 enable
@@ -1132,14 +1135,15 @@ line vty 2 4
  no login
 !
 !
+end
 
-end</entry>
-        </extensions>
+R6#
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R7" type="SIMPLE" subtype="IOSv" location="43,552">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R7" type="SIMPLE" subtype="IOSv" location="43,552"><extensions><entry key="config" type="String">!
 version 15.2
 !
 enable
@@ -1311,14 +1315,15 @@ line vty 2 4
  no login
 !
 !
+end
 
-end</entry>
-        </extensions>
+R7#
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R8" type="SIMPLE" subtype="IOSv" location="43,618">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R8" type="SIMPLE" subtype="IOSv" location="43,618"><extensions><entry key="config" type="String">!
 version 15.2
 !
 enable
@@ -1479,13 +1484,15 @@ line vty 2 4
  no login
 !
 !
-end</entry>
-        </extensions>
+end
+
+R8#
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R9" type="SIMPLE" subtype="IOSv" location="37,675">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R9" type="SIMPLE" subtype="IOSv" location="37,675"><extensions><entry key="config" type="String">!
 version 15.2
 !
 enable
@@ -1744,13 +1751,13 @@ line vty 0 4
  no login
 !
 !
-end</entry>
-        </extensions>
+end
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
-    <node name="R10" type="SIMPLE" subtype="IOSv" location="32,741">
-        <extensions>
-            <entry key="config" type="String">!
+    <node name="R10" type="SIMPLE" subtype="IOSv" location="32,741"><extensions><entry key="config" type="String">!
 version 15.2
 !
 
@@ -1964,133 +1971,15 @@ line vty 0 4
  no login
 !
 !
+end
 
-end</entry>
-        </extensions>
+R10#
+!
+end
+</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
     </node>
     <node name="SW1" type="SIMPLE" subtype="IOSvL2" location="346,347">
-        <extensions>
-            <entry key="config">!
-! Last configuration change at 19:54:30 UTC Wed Apr 1 2020
-!
-version 15.2
-service timestamps debug datetime msec
-service timestamps log datetime msec
-no service password-encryption
-service compress-config
-!
-hostname Switch
-!
-boot-start-marker
-boot-end-marker
-!
-!
-!
-no aaa new-model
-!
-!
-!
-!
-!
-!
-!
-!
-ip cef
-no ipv6 cef
-!
-!
-!
-spanning-tree mode pvst
-spanning-tree extend system-id
-!
-!
-! 
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-interface GigabitEthernet0/0
- negotiation auto
-!
-interface GigabitEthernet0/1
- negotiation auto
-!
-interface GigabitEthernet0/2
- negotiation auto
-!
-interface GigabitEthernet0/3
- negotiation auto
-!
-interface GigabitEthernet1/0
- negotiation auto
-!
-interface GigabitEthernet1/1
- negotiation auto
-!
-interface GigabitEthernet1/2
- negotiation auto
-!
-interface GigabitEthernet1/3
- negotiation auto
-!
-ip forward-protocol nd
-!
-ip http server
-!
-ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
-ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
-!
-!
-!
-!
-!
-!
-control-plane
-!
-banner exec `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-banner incoming `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-banner login `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-!
-line con 0
-line aux 0
-line vty 0 4
-!
-!
-end</entry>
-        </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
         <interface id="2" name="GigabitEthernet0/3"/>
@@ -2100,124 +1989,6 @@ end</entry>
         <interface id="6" name="GigabitEthernet1/3"/>
     </node>
     <node name="SW2" type="SIMPLE" subtype="IOSvL2" location="580,343">
-        <extensions>
-            <entry key="config">!
-! Last configuration change at 19:55:04 UTC Wed Apr 1 2020
-!
-version 15.2
-service timestamps debug datetime msec
-service timestamps log datetime msec
-no service password-encryption
-service compress-config
-!
-hostname Switch
-!
-boot-start-marker
-boot-end-marker
-!
-!
-!
-no aaa new-model
-!
-!
-!
-!
-!
-!
-!
-!
-ip cef
-no ipv6 cef
-!
-!
-!
-spanning-tree mode pvst
-spanning-tree extend system-id
-!
-!
-! 
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-interface GigabitEthernet0/0
- negotiation auto
-!
-interface GigabitEthernet0/1
- negotiation auto
-!
-interface GigabitEthernet0/2
- negotiation auto
-!
-interface GigabitEthernet0/3
- negotiation auto
-!
-interface GigabitEthernet1/0
- negotiation auto
-!
-interface GigabitEthernet1/1
- negotiation auto
-!
-interface GigabitEthernet1/2
- negotiation auto
-!
-ip forward-protocol nd
-!
-ip http server
-!
-ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
-ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
-!
-!
-!
-!
-!
-!
-control-plane
-!
-banner exec `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-banner incoming `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-banner login `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-!
-line con 0
-line aux 0
-line vty 0 4
-!
-!
-end</entry>
-        </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
         <interface id="2" name="GigabitEthernet0/3"/>
@@ -2226,124 +1997,6 @@ end</entry>
         <interface id="5" name="GigabitEthernet1/2"/>
     </node>
     <node name="SW3" type="SIMPLE" subtype="IOSvL2" location="339,520">
-        <extensions>
-            <entry key="config">!
-! Last configuration change at 19:54:47 UTC Wed Apr 1 2020
-!
-version 15.2
-service timestamps debug datetime msec
-service timestamps log datetime msec
-no service password-encryption
-service compress-config
-!
-hostname Switch
-!
-boot-start-marker
-boot-end-marker
-!
-!
-!
-no aaa new-model
-!
-!
-!
-!
-!
-!
-!
-!
-ip cef
-no ipv6 cef
-!
-!
-!
-spanning-tree mode pvst
-spanning-tree extend system-id
-!
-!
-! 
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-interface GigabitEthernet0/0
- negotiation auto
-!
-interface GigabitEthernet0/1
- negotiation auto
-!
-interface GigabitEthernet0/2
- negotiation auto
-!
-interface GigabitEthernet0/3
- negotiation auto
-!
-interface GigabitEthernet1/0
- negotiation auto
-!
-interface GigabitEthernet1/1
- negotiation auto
-!
-interface GigabitEthernet1/2
- negotiation auto
-!
-ip forward-protocol nd
-!
-ip http server
-!
-ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
-ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
-!
-!
-!
-!
-!
-!
-control-plane
-!
-banner exec `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-banner incoming `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-banner login `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-!
-line con 0
-line aux 0
-line vty 0 4
-!
-!
-end</entry>
-        </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
         <interface id="2" name="GigabitEthernet0/3"/>
@@ -2352,124 +2005,6 @@ end</entry>
         <interface id="5" name="GigabitEthernet1/2"/>
     </node>
     <node name="SW4" type="SIMPLE" subtype="IOSvL2" location="580,519">
-        <extensions>
-            <entry key="config">!
-! Last configuration change at 19:54:44 UTC Wed Apr 1 2020
-!
-version 15.2
-service timestamps debug datetime msec
-service timestamps log datetime msec
-no service password-encryption
-service compress-config
-!
-hostname Switch
-!
-boot-start-marker
-boot-end-marker
-!
-!
-!
-no aaa new-model
-!
-!
-!
-!
-!
-!
-!
-!
-ip cef
-no ipv6 cef
-!
-!
-!
-spanning-tree mode pvst
-spanning-tree extend system-id
-!
-!
-! 
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-interface GigabitEthernet0/0
- negotiation auto
-!
-interface GigabitEthernet0/1
- negotiation auto
-!
-interface GigabitEthernet0/2
- negotiation auto
-!
-interface GigabitEthernet0/3
- negotiation auto
-!
-interface GigabitEthernet1/0
- negotiation auto
-!
-interface GigabitEthernet1/1
- negotiation auto
-!
-interface GigabitEthernet1/2
- negotiation auto
-!
-ip forward-protocol nd
-!
-ip http server
-!
-ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
-ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
-!
-!
-!
-!
-!
-!
-control-plane
-!
-banner exec `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-banner incoming `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-banner login `
-**************************************************************************
-* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
-* education. IOSv is provided as-is and is not supported by Cisco's      *
-* Technical Advisory Center. Any use or disclosure, in whole or in part, *
-* of the IOSv Software or Documentation to any third party for any       *
-* purposes is expressly prohibited except as otherwise authorized by     *
-* Cisco in writing.                                                      *
-**************************************************************************`
-!
-line con 0
-line aux 0
-line vty 0 4
-!
-!
-end</entry>
-        </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
         <interface id="2" name="GigabitEthernet0/3"/>
@@ -2490,7 +2025,6 @@ end</entry>
         <interface id="9" name="link10"/>
         <interface id="10" name="link11"/>
     </node>
-    <annotations/>
     <connection dst="/virl:topology/virl:node[15]/virl:interface[1]" src="/virl:topology/virl:node[1]/virl:interface[1]"/>
     <connection dst="/virl:topology/virl:node[15]/virl:interface[2]" src="/virl:topology/virl:node[2]/virl:interface[1]"/>
     <connection dst="/virl:topology/virl:node[15]/virl:interface[3]" src="/virl:topology/virl:node[3]/virl:interface[1]"/>
