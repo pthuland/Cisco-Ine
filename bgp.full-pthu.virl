@@ -199,10 +199,6 @@ line vty 2 4
 !
 !
 end
-
-R1#
-!
-end
 </entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
@@ -389,10 +385,6 @@ line vty 2 4
  privilege level 15
  no login
 !
-!
-end
-
-R2#
 !
 end
 </entry>
@@ -592,9 +584,7 @@ line vty 2 4
  no login
 !
 !
-end
 
-R3#
 !
 end
 </entry>
@@ -789,10 +779,7 @@ line vty 2 4
  no login
 !
 !
-end
 
-R4#
-!
 end
 </entry>
         </extensions>
@@ -989,10 +976,7 @@ line vty 2 4
  no login
 !
 !
-end
 
-R5#
-!
 end
 </entry>
         </extensions>
@@ -1153,10 +1137,7 @@ line vty 2 4
  no login
 !
 !
-end
 
-R6#
-!
 end
 </entry>
         </extensions>
@@ -1336,10 +1317,7 @@ line vty 2 4
  no login
 !
 !
-end
 
-R7#
-!
 end
 </entry>
         </extensions>
@@ -1510,9 +1488,7 @@ line vty 2 4
 !
 end
 
-R8#
-!
-end
+
 </entry>
         </extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
@@ -2001,10 +1977,7 @@ line vty 0 4
  no login
 !
 !
-end
 
-R10#
-!
 end
 </entry>
         </extensions>
