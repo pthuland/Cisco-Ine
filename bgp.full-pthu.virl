@@ -6,8 +6,8 @@
 ! Test             
 version 15.2
 !
-enable
-conf t
+!enable
+!conf t
 
 Current configuration : 2968 bytes
 !
